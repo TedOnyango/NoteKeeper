@@ -187,6 +187,18 @@ public class NoteActivity extends AppCompatActivity {
 //        return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        MenuItem item1 = menu.findItem(R.id.action_next);
+        MenuItem item2 = menu.findItem(R.id.action_previous);
+
+//        Implement Disabling the previous action at the end of the notes list.
+
+        int lastNoteIndex = DataManager.getInstance().getNotes().size() - 1;
+        item1.setEnabled(mNotePosition < lastNoteIndex );
+        return super.onPrepareOptionsMenu(menu);
+    }
+
     private void movePrevious() {
         saveNote();
 

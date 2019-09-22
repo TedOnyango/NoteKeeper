@@ -37,6 +37,8 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array pref_social_network_entries
+array pref_value_fav_social_network
 array reply_entries
 array reply_values
 attr actionBarDivider
@@ -1280,7 +1282,6 @@ id icon_frame
 id icon_group
 id ifRoom
 id image
-id imageView
 id imageView2
 id imageView3
 id info
@@ -1396,7 +1397,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id text_course
 id text_input_password_toggle
 id text_note_text
@@ -1423,6 +1423,9 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userEmail
+id userImage
+id userName
 id view_offset_helper
 id visible
 id withText
@@ -1596,6 +1599,7 @@ string copy
 string expand_button_title
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fav_social_network
 string hide_bottom_view_on_scroll_behavior
 string menu_gallery
 string menu_home
@@ -1622,10 +1626,12 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pref_default_favorite_social
 string preference_copied
 string reply_title
 string search_menu_title
 string send_email
+string signature_email
 string signature_title
 string status_bar_notification_info_overflow
 string summary_collapsed_preference_list
@@ -1638,6 +1644,7 @@ string text_title
 string title_activity_main
 string title_activity_note
 string title_activity_settings
+string user_display_email
 string v7_preference_off
 string v7_preference_on
 style AddFab

@@ -36,7 +36,24 @@
     <string name="sync_header">Sync</string>
 
     <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
+    <string name="signature_title">Enter Your Name</string>
+    <string name="signature_email">Enter Your Email</string>
+    <string name="fav_social_network">Favorite Social Network</string>
+    <string-array name="pref_social_network_entries">
+        <item> Google+</item>
+        <item>Twitter</item>
+        <item>Facebook</item>
+
+    </string-array>
+    <string-array name="pref_value_fav_social_network">
+        <item>http://plus.google.com</item>
+        <item>http://facebook.com</item>
+        <item>http://twitter.com</item>
+    </string-array>
+    <string name="pref_default_favorite_social">
+        http://plus.google.com
+    </string>
+
     <string name="reply_title">Default reply action</string>
 
     <!-- Sync Preferences -->
@@ -45,5 +62,6 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="user_display_email">teddybearochieng@gmail.com</string>
 
 </resources>
