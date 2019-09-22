@@ -1,0 +1,83 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ted.notekeeper"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:5:5-38:19
+12        android:allowBackup="true"
+12-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0-rc01] /home/ted/.gradle/caches/transforms-2/files-2.1/0a24f66f30aa88e58514b4772733e5a7/core-1.1.0-rc01/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:11:9-40
+21        <activity
+21-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:12:9-19:20
+22            android:name="com.ted.notekeeper.SettingsActivity"
+22-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:13:13-45
+23            android:label="@string/title_activity_settings"
+23-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:14:13-60
+24            android:parentActivityName="com.ted.notekeeper.MainActivity" >
+24-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:15:13-55
+25            <meta-data
+25-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:16:13-18:67
+26                android:name="android.support.PARENT_ACTIVITY"
+26-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:17:17-63
+27                android:value="com.ted.notekeeper.MainActivity" />
+27-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:18:17-64
+28        </activity>
+29        <activity
+29-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:20:9-29:20
+30            android:name="com.ted.notekeeper.MainActivity"
+30-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:21:13-41
+31            android:label="@string/title_activity_main"
+31-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:22:13-56
+32            android:theme="@style/AppTheme.NoActionBar" >
+32-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:23:13-56
+33            <intent-filter>
+33-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:24:13-28:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:25:17-69
+34-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:25:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:27:17-77
+36-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:27:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:30:9-33:68
+40            android:name="com.ted.notekeeper.NoteListActivity"
+40-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:31:13-45
+41            android:label="@string/app_name"
+41-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:32:13-45
+42            android:theme="@style/AppTheme.NoActionBar" />
+42-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:33:13-56
+43        <activity
+43-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:34:9-37:59
+44            android:name="com.ted.notekeeper.NoteActivity"
+44-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:35:13-41
+45            android:label="@string/title_activity_note"
+45-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:36:13-56
+46            android:theme="@style/AppTheme.NoActionBar" />
+46-->/home/ted/Desktop/NoteKeeper-master/app/src/main/AndroidManifest.xml:37:13-56
+47    </application>
+48
+49</manifest>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ted.notekeeper.NoteActivity">
+    <item
+        android:id="@+id/action_send_mail"
+        android:orderInCategory="100"
+        android:title="@string/send_email"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_previous"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="@string/action_previous"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/action_next"
+        android:icon="@android:drawable/ic_media_next"
+        android:title="@string/action_next"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/action_cancel"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="@string/action_cancel"
+        app:showAsAction="ifRoom|withText" />
+</menu>
