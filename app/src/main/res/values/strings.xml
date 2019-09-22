@@ -63,5 +63,6 @@
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="user_display_email">teddybearochieng@gmail.com</string>
+    <string name="user_display_name">Teddy Onyango</string>
 
 </resources>

@@ -1645,6 +1645,7 @@ string title_activity_main
 string title_activity_note
 string title_activity_settings
 string user_display_email
+string user_display_name
 string v7_preference_off
 string v7_preference_on
 style AddFab

@@ -8,8 +8,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.PreferenceFragmentCompat;
 
 public class SettingsActivity extends AppCompatActivity {
-    public TextView textUserName;
-    public TextView textUserEmail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +21,7 @@ public class SettingsActivity extends AppCompatActivity {
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
-        textUserName = (TextView) findViewById(R.id.userName);
-        textUserEmail = (TextView) findViewById(R.id.userEmail);
+
 
 
     }

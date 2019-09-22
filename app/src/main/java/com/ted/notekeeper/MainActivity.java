@@ -22,6 +22,8 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
 
+import org.w3c.dom.Text;
+
 import java.util.List;
 import java.util.prefs.PreferenceChangeEvent;
 
@@ -70,23 +72,21 @@ public class MainActivity extends AppCompatActivity
     protected void onResume() {
         super.onResume();
         mNoteRecyclerAdapter.notifyDataSetChanged();
-//        updateNavHeader();
+        updateNavHeader();
+
     }
 
     private void updateNavHeader() {
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        View headerView = navigationView.getHeaderView(0);
+        View headerView  = navigationView.getHeaderView(0);
         TextView txtUserName = (TextView) findViewById(R.id.userName);
         TextView txtUserEmail = (TextView) findViewById(R.id.userEmail);
 
+        SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
+        String userName = pref.getString("user_display_name", "");
 
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
-        String userName = preferences.getString("user_display_name", "");
-        String userEmail = preferences.getString("user_displaya-email", "");
-
-        txtUserName.setText(userName);
-        txtUserEmail.setText(userEmail);
     }
+
 
     private void initializeDisplayContent() {
         DataManager.loadFromDatabase(mDbOpenHelper);

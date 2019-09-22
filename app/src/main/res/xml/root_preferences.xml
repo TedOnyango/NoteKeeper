@@ -20,18 +20,18 @@
     <PreferenceCategory app:title="@string/messages_header">
 
         <EditTextPreference
-            app:key="User Name"
+            app:key="user_display_name"
             app:title="@string/signature_title"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
-            app:key="User Email"
+            app:key="user_display_email"
             app:title="@string/signature_email"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
             android:clickable="false"
-            app:key="Fav Social Network"
+            app:key="fav_social_network"
             app:title="@string/fav_social_network"
             app:useSimpleSummaryProvider="true" />
 

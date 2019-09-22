@@ -4112,7 +4112,7 @@
         <item>Twitter</item>
         <item>Facebook</item>
 
-    </string-array><string name="user_display_email">teddybearochieng@gmail.com</string></file><file path="/home/ted/Desktop/NoteKeeper-master/app/src/main/res/values/dimens.xml" qualifiers=""><dimen name="fab_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="nav_header_vertical_spacing">8dp</dimen><dimen name="nav_header_height">176dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="/home/ted/Desktop/NoteKeeper-master/app/src/main/res/values/arrays.xml" qualifiers=""><string-array name="reply_entries">
+    </string-array><string name="user_display_email">teddybearochieng@gmail.com</string><string name="user_display_name">Teddy Onyango</string></file><file path="/home/ted/Desktop/NoteKeeper-master/app/src/main/res/values/dimens.xml" qualifiers=""><dimen name="fab_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="nav_header_vertical_spacing">8dp</dimen><dimen name="nav_header_height">176dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="/home/ted/Desktop/NoteKeeper-master/app/src/main/res/values/arrays.xml" qualifiers=""><string-array name="reply_entries">
         <item>Reply</item>
         <item>Reply to all</item>
     </string-array><string-array name="reply_values">

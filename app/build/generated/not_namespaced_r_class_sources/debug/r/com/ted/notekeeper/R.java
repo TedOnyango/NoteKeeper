@@ -5677,8 +5677,9 @@ public final class R {
     public static final int title_activity_note=0x7f0f0056;
     public static final int title_activity_settings=0x7f0f0057;
     public static final int user_display_email=0x7f0f0058;
-    public static final int v7_preference_off=0x7f0f0059;
-    public static final int v7_preference_on=0x7f0f005a;
+    public static final int user_display_name=0x7f0f0059;
+    public static final int v7_preference_off=0x7f0f005a;
+    public static final int v7_preference_on=0x7f0f005b;
   }
   public static final class style {
     public static final int AddFab=0x7f100000;

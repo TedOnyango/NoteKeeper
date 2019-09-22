@@ -697,6 +697,7 @@
     <string name="title_activity_note">Edit Note</string>
     <string name="title_activity_settings">Settings</string>
     <string name="user_display_email">teddybearochieng@gmail.com</string>
+    <string name="user_display_name">Teddy Onyango</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <style name="AddFab" parent="@style/Widget.Design.FloatingActionButton">
