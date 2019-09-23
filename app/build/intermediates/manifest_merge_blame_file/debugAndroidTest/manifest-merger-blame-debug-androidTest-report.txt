@@ -3,31 +3,31 @@
 3    package="com.ted.notekeeper.test" >
 4
 5    <uses-sdk
-5-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6491259205716385441.xml:5:5-74
+5-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5945970257210309180.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6491259205716385441.xml:5:15-41
+6-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5945970257210309180.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6491259205716385441.xml:5:42-71
+7-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5945970257210309180.xml:5:42-71
 8
 9    <instrumentation
-9-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6491259205716385441.xml:11:5-15:68
+9-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5945970257210309180.xml:11:5-15:68
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6491259205716385441.xml:11:22-76
+10-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5945970257210309180.xml:11:22-76
 11        android:functionalTest="false"
-11-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6491259205716385441.xml:14:22-52
+11-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5945970257210309180.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6491259205716385441.xml:13:22-53
+12-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5945970257210309180.xml:13:22-53
 13        android:label="Tests for com.ted.notekeeper"
-13-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6491259205716385441.xml:15:22-66
+13-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5945970257210309180.xml:15:22-66
 14        android:targetPackage="com.ted.notekeeper" />
-14-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6491259205716385441.xml:12:22-64
+14-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5945970257210309180.xml:12:22-64
 15
 16    <application android:debuggable="true" >
-16-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6491259205716385441.xml:7:5-9:19
-16-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6491259205716385441.xml:7:18-43
+16-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5945970257210309180.xml:7:5-9:19
+16-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5945970257210309180.xml:7:18-43
 17        <uses-library android:name="android.test.runner" />
-17-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6491259205716385441.xml:8:9-60
-17-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6491259205716385441.xml:8:23-57
+17-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5945970257210309180.xml:8:9-60
+17-->/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5945970257210309180.xml:8:23-57
 18    </application>
 19
 20</manifest>

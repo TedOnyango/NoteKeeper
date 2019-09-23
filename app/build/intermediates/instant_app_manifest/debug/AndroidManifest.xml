@@ -45,6 +45,12 @@
             android:name="com.ted.notekeeper.NoteActivity"
             android:label="@string/title_activity_note"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name="com.ted.notekeeper.NoteKeeperProvider"
+            android:authorities="com.ted.notekeeper.provider"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>
