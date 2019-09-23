@@ -81,11 +81,11 @@ public class DataManager {
     }
 
     public String getCurrentUserName() {
-        return "Jim Wilson";
+        return "Teddy Onyango";
     }
 
     public String getCurrentUserEmail() {
-        return "jimw@jwhh.com";
+        return "teddybearochieng@gmail.com";
     }
 
     public List<NoteInfo> getNotes() {

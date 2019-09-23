@@ -1,4 +1,4 @@
-#Mon Sep 23 13:53:35 EAT 2019
+#Mon Sep 23 14:24:42 EAT 2019
 base.0=/home/ted/Desktop/NoteKeeper-master/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
