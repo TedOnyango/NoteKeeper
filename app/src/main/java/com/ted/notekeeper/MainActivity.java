@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity
     private CourseRecyclerAdapter mCourseRecyclerAdapter;
     private GridLayoutManager mCourseLayoutManager;
     private NoteKeeperOpenHelper mDbOpenHelper;
+    TextView txtUserName;
+    TextView txtUserEmail;
 
 
 
@@ -60,6 +62,10 @@ public class MainActivity extends AppCompatActivity
         });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
+        View header = navigationView.getHeaderView(0);
+        TextView userName = (TextView) findViewById(R.id.userName);
+        TextView userEmail = (TextView) findViewById(R.id.userEmail);
+
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
@@ -180,18 +186,22 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
-        int id = item.getItemId();
-
-        if (id == R.id.nav_notes) {
-            displayNotes();
-        } else if (id == R.id.nav_courses) {
-           displayCourses();
-        } else if (id == R.id.nav_share) {
-            handleSelection(getString(R.string.nav_share_message));
-        } else if (id == R.id.nav_send) {
-            handleSelection(getString(R.string.nav_send));
-
+        switch (item.getItemId()) {
+            case R.id.nav_notes:
+                displayNotes();
+                break;
+            case R.id.nav_courses:
+                displayCourses();
+                break;
+            case R.id.nav_share:
+                handleSelection(getString(R.string.nav_share_message));
+                break;
+            case R.id.nav_send:
+                handleSelection(getString(R.string.nav_send));
+                break;
         }
+
+
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
